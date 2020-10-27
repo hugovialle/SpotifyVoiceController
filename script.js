@@ -1,7 +1,7 @@
 var player = 0;
 
 window.onSpotifyWebPlaybackSDKReady = () => {
-    const token = 'BQCx1d-pRP-4_RcPOwtBtQHc7A0QkgOGJxf2g5VHfTT5_0Yo-rax3dmGxG4TLWP8Of-VeQlT46W_6A_vBjmCdZuR4T7cIoxDKCs_bfKbJSeB8emWzIwgkhL9z5Wws3jURrR0q0Jvm-698-MFtkej_Fh4u5NQbICBKYf1qo_4CWCsKq1Uvt9RM1A';
+    const token = 'YourAccessToken';
     player = new Spotify.Player({
       name: 'SpotifyVoiceController',
       getOAuthToken: cb => { cb(token);
