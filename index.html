@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title>SpotifyVoiceController</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+    
+    
+<body>
+  <div id="top">
+    <h1>Spotify <span>Voice</span> Controller</h1>
+</div>
+
+    <div>
+      <p id="instructions"></p>
+    </div>
+    
+    <button type="button" id="pause" name="button" hidden>PAUSE</button>
+    <button type="button" id="play" name="button" hidden>PLAY</button>
+    <button type="button" id="next" name="button" hidden>NEXT</button>
+    <button type="button" id="previous" name="button" hidden>PREVIOUS</button>
+    <button type="button" id="mute" name="button" hidden>MUTE</button>
+    <button type="button" id="upvolume" name="button" hidden>UP_VOLUME</button>
+    <button type="button" id="downvolume" name="button" hidden>DOWN_VOLUME</button>
+
+
+    <p id="p1"></p>
+    <p id="info"></p>
+    
+    <div id="tracks">
+      <ul id="list">
+        <li><img class="artwork" id="track1" src=""></li>
+        <li><img class="artwork" id="track2" src=""></li>
+        <li><img class="artwork" id="track3" src=""></li>
+        <li><img class="artwork" id="track4" src=""></li>
+        <li><img class="artwork" id="track5" src=""></li>
+      </ul>
+    </div>
+    <div>
+      <p id="name">Name</p>
+      <p id="artist">Artist</p>
+    </div>
+    <button type="button" id="start-microphone" name="button">START MICROPHONE</button>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://sdk.scdn.co/spotify-player.js"></script>
+<script src="script.js"></script>
+<script src="App.js"></script>
+
+</html>

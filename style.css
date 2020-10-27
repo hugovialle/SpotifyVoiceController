@@ -1,0 +1,143 @@
+html, body {
+    background-color: rgba(243, 243, 243);
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+
+h1{
+    color: rgb(165, 165, 165);
+    font-weight: 100;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+#instructions, #area-textcontent {
+    color: gray;
+    text-align: center;
+}
+
+h1 span{
+    font-weight: 500; background: linear-gradient(to right, #43cea2 35%, #185a9d 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+#start-microphone{
+    background-color: rgb(24, 90, 157,0.7);
+    color: white;
+    border
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+}
+
+#info{
+  color: rgb(226, 45, 0);
+  text-align: center;
+}
+
+#top{
+    background-color: white;
+    margin: 10;
+    box-shadow: 1px 1px 10px 1px rgb(24, 90, 157,0.2);
+    top: 0; right: 0; bottom: 1; left: 0;
+}
+
+#tracks{
+    text-align: center;
+    position: relative;
+    width: 750px;
+    height: 290px;
+    margin: 110px auto 0;
+    color: rgb(85, 85, 85);
+}
+
+#name{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: none;
+    line-height: 2px;
+    text-align: center;
+    color:  rgb(112, 112, 112);
+    opacity: 0;
+}
+
+#artist{
+  color: rgb(112, 112, 112);
+  text-align: center;
+  opacity: 0;
+}
+
+
+div p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.artwork{
+    text-align: center;
+    max-width: 240px;
+    max-width: 240px;
+}
+
+#list {
+    list-style: none;
+    height: 240px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+
+  #p1 {
+    color: rgb(112, 112, 112);
+    text-align: center;
+  }
+  
+  #list .artwork {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0; right: 0;
+    transition: transform 0.4s ease;
+  }
+  
+  #track1 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(-100%,0,-200px);
+    opacity: 0;
+  }
+  
+  #track2 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-50%,0,-100px);
+    opacity: 0;
+  }
+  
+  #track3 {
+    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+    transform: translate3d(0,0,0);
+    opacity: 0;
+  }
+  
+  #track4 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(50%,0,-100px);
+    opacity: 0;
+  }
+  
+  #track5 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(100%,0,-200px);
+    opacity: 0;
+  }
